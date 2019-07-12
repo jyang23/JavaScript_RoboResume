@@ -1,0 +1,88 @@
+.topnav {
+    overflow: hidden;
+    background-color: #0086AD;
+    color: white;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: dodgerblue;
+    color: black;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0086AD;
+    color: white;
+    text-align: center;
+}
+
+div container {
+    border-radius: 10px;
+    height: 50px;
+    width: 75px;
+    background-color: lightskyblue !important;
+}
+
+body {
+    background-color: #f2f9fb;
+}
+
+img {
+    height: 100px;
+    display: block;
+}
+
+.path__display {
+    background-color: transparent;
+    color: black;
+    font-size: 20px;
+    padding: 0.5em 0.75em;
+    text-align: right;
+    margin: auto;
+}
+
+#bun
+{
+    border-radius: 12px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+#bun2
+{
+    border-radius: 12px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+input[type=text]  {
+    width: 100%;
+    border-radius: 10px;
+}
+input[type=textarea]  {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
